@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body >
+    <section class="container">
+        <!-- Start Header -->
+        <header>
+          <nav class="navbar">
+            <section class="d-flex navbar-menu-container">
+
+              <section class="d-flex">
+                <img src="assets/images/icon-menu.svg" alt="menu" class="header-menu-burger">
+                <img src="assets/images/logo.svg" alt="logo" class="logo">
+              </section>
+
+              <section class="navbar-menu d-md-none">
+                <img src="assets/images/icon-close.svg" alt="close" class="close-menu-icon">
+                <ul>
+                  <li class="d-inline"><a href="#" class="navbar-link">Collection</a></li>
+                  <li class="d-inline"><a href="#" class="navbar-link">Men</a></li>
+                  <li class="d-inline"><a href="#" class="navbar-link">Women</a></li>
+                  <li class="d-inline"><a href="#" class="navbar-link">About</a></li>
+                  <li class="d-inline"><a href="#" class="navbar-link">Contact</a></li>
+                </ul>
+              </section>
+            </section>
+
+            <section class="nav-cart d-flex flexitem">
+              <a href="#" class="relative">
+                <span class="cart-count d-none"><span>1</span></span>
+                <img src="assets/images/icon-cart.svg" alt="Cart" class="cart-icon" >
+                <div class="cart-content-container absolute d-none">
+                  <div class="cart-title">
+                    <h5 class="cart-title-text">Cart</h5>
+                  </div>
+                  <div class="cart-content cart-content-empty">
+                    <p class="cart-empty-text">Your cart is empty</p>
+                    <div class="cart-main-content">
+                      <div class="cart-product-img-container">
+                        <img src="assets/images/image-product-1.jpg" alt="product Imgage" class="cart-product-img">
+                      </div>
+                      <div class="cart-info">
+                        <div class="cart-product-info">
+                          <p class="product-name">Fall Limited Edition Sneakers</p>
+                          <p class="product-price-info">
+                            <span id="single-product-price" price="125">$125.00</span>
+                            <span id="times">&times;</span>
+                            <span id="cart-product-count">3</span>
+                            <span id="product-total-price">$375.00</span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="cart-delete-icon pointer">
+                        <span><img src="assets/images/icon-delete.svg" alt="Delete Icon" class="delete-icon"></span>
+                      </div>
+                    </div>
+                    <div class="cart-btn-container pointer">
+                      <button type="button" class="btn">Ckeckout</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+              <img src="assets/images/image-avatar.png" alt="Avatar" class="avatar">
+              </a>
+            </section>
+          </nav>
+        </header>
+        <!--- End Header --->
+        <!-- Start Main -->
+        <main>
+          <section class="main-container d-flex">
+            <section class="product-imgs">
+
+              <section class="product-imgs-container">
+                <section class="large-product-img">
+                  <span class="slider-icon d-sm-none pointer" id="previcon-1"><img src="assets/images/icon-previous.svg" alt=""></span>
+                  <img src="assets/images/image-product-1.jpg" alt="prduct" class="large-img pointer">
+                  <span class="slider-icon d-sm-none pointer" id="nexticon-1"><img src="assets/images/icon-next.svg" alt=""></span>
+                </section>
+                <section class="small-thumbnail-img">
+                  <section class="small-product-img pointer small-img-cover">
+                    <img src="assets/images/image-product-1.jpg" class="small-img " alt="">
+                  </section>
+
+                  <section class="small-product-img pointer">
+                    <img src="assets/images/image-product-2.jpg" class="small-img" alt="">
+                  </section>
+
+                  <section class="small-product-img pointer">
+                    <img src="assets/images/image-product-3.jpg" class="small-img" alt="">
+                  </section>
+
+                  <section class="small-product-img pointer">
+                    <img src="assets/images/image-product-4.jpg" class="small-img" alt="">
+                  </section>
+                </section>
+              </section>
+
+              <section class="product-imgs-container product-img-fullscreen d-none" id="product-imgs">
+                <section class="large-product-img">
+                  <span class="slider-close-icon pointer d-none"><i class="fa fa-times"></i></span>
+                  <span class="slider-icon d-none pointer" id="previcon-2"><img src="assets/images/icon-previous.svg" alt=""></span>
+                  <img src="assets/images/image-product-1.jpg" alt="prduct" class="large-img pointer">
+                  <span class="slider-icon d-none pointer" id="nexticon-2"><img src="assets/images/icon-next.svg" alt=""></span>
+                </section>
+
+                <section class="small-thumbnail-img">
+                  <section class="small-product-img pointer small-img-cover">
+                    <img src="assets/images/image-product-1.jpg" class="small-img" alt="">
+                  </section>
+
+                  <section class="small-product-img pointer">
+                    <img src="assets/images/image-product-2.jpg" class="small-img" alt="">
+                  </section>
+
+                  <section class="small-product-img pointer">
+                    <img src="assets/images/image-product-3.jpg" class="small-img" alt="">
+                  </section>
+
+                  <section class="small-product-img pointer">
+                    <img src="assets/images/image-product-4.jpg" class="small-img" alt="">
+                  </section>
+                </section>
+              </section>
+
+            </section>
+            <section class="product-info">
+              <section class="product-info-content">
+                <section class="product-details">
+                  <p class="company-name">SNEAKER COMPANY</p>
+                  <h1 class="product-title">Fall Limited Edition Sneakers</h1>
+                  <p  class="product-explanation">These low-profile sneakers are your perfect casual wear
+                    companion. Featuring a durable rubber outer sole,they'll 
+                    withstand everything the weather can offer.
+                  </p>
+                </section>
+                <section class="porduct-price-container">
+                  <div class="porduct-price">
+                    <span class="discounted-price">$125.00</span>
+                    <span class="discount">50%</span>
+                  </div>
+                  <div><span class="orginal-price">$250.00</span></div>
+                </section>
+                <section class="procuct-select-count">
+                  <div class="procuct-count-item">
+                    <span class="pointer" id="prduct-count-minus-btn"><img src="assets/images/icon-minus.svg" alt="minus"></span>
+                    <span><input type="number" value="0" id="product-count"></span>
+                    <span class="pointer" id="prduct-count-plus-btn"><img src="assets/images/icon-plus.svg" alt="plus"></span>
+                  </div>
+                  <div class="add-to-cart">
+                    <span><i class="fa fa-shopping-cart"></i></span>
+                    <button type="button" class="pointer">Add to cart</button>
+                  </div>
+                </section>
+              </section>
+            </section>
+          </section>
+        </main>
+        <!-- End Main -->
+    </section>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
